@@ -244,8 +244,7 @@ export class ReactNativeModal extends Component {
               styles.backdrop,
               {
                 backgroundColor: backdropColor,
-                width: deviceWidth,
-                height: deviceHeight,
+                flex:1
               },
             ]}
           />
